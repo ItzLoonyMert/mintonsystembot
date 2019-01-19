@@ -3011,11 +3011,8 @@ client.on("guildMemberAdd", member => {
       var jimp = require('jimp')
       
       const w = ['w.png'
-				 'w2.png'
-				 'w3.png'
-				 'w4.png'
-				 'w5.png'];
-      
+		 
+		
               let Image = Canvas.Image,
                   canvas = new Canvas(557, 241),
                   ctx = canvas.getContext('2d');
