@@ -202,51 +202,51 @@ client.on('message', message => {
            .setColor("#FF0000")
            .setDescription(`**    :sleuth_or_spy::skin-tone-1: اوامر الأداره :sleuth_or_spy::skin-tone-1:**
 **============ **
-  ** -move @user |  لسحب الشخص الى روومك** :confused: 
+  ** #move @user |  لسحب الشخص الى روومك** :confused: 
 
-  ** -bc | رسالة جماعية الى كل اعضاء السيرفر** :mega:
+  ** #bc | رسالة جماعية الى كل اعضاء السيرفر** :mega:
 
-  ** -role @user <rank> | لأعطاء رتبة لعضو معين**:large_orange_diamond: 
+  ** #role @user <rank> | لأعطاء رتبة لعضو معين**:large_orange_diamond: 
 
-  ** -roleremove @user <rank> | لازالة الرتبة من شخص معين** :orange_book: 
+  ** #roleremove @user <rank> | لازالة الرتبة من شخص معين** :orange_book: 
 
-  ** -role all <rank> | لأعطاء رتبة للجميع**:shield: 
+  ** #role all <rank> | لأعطاء رتبة للجميع**:shield: 
 
-  ** -role humans <rank> | لأعطاء رتبة للاشخاص فقط **:man: , :woman: 
+  ** #role humans <rank> | لأعطاء رتبة للاشخاص فقط **:man: , :woman: 
 
-  **-role bots <rank> | لأعطاء رتبة لجميع البوتات**:robot: 
+  ** #role bots <rank> | لأعطاء رتبة لجميع البوتات**:robot: 
 
-  ** -schannel | اضهار الشات المخفية**:blush: 
+  ** #schannel | اضهار الشات المخفية**:blush: 
 
-  ** -hchannel | اخفاء الشات**:arrow_heading_down: 
+  ** #hchannel | اخفاء الشات**:arrow_heading_down: 
 
-  ** -clr <numbr> | مسح الشات بعدد**:information_source: 
+  ** #clr <numbr> | مسح الشات بعدد**:information_source: 
 
-  ** -clear | مسح الشات ** :recycle: 
+  ** #clear | مسح الشات ** :recycle: 
 
-  ** -mute @user <reason> | اعطاء العضو ميوت لازم رتبة <Muted>**:mute:
+  ** #mute @user <reason> | اعطاء العضو ميوت لازم رتبة <Muted>**:mute:
 
-  ** -unmute @user | لفك الميوت عن الشخص ** :loud_sound:
+  ** #unmute @user | لفك الميوت عن الشخص ** :loud_sound:
 
-  ** -kick @user <reason> | طرد الشخص من السيرفر**  :outbox_tray:
+  ** #kick @user <reason> | طرد الشخص من السيرفر**  :outbox_tray:
 
-  ** -ban @user <reason> | حضر الشخص من السيرفر** :no_entry:
+  ** #ban @user <reason> | حضر الشخص من السيرفر** :no_entry:
 
-  ** -mutechannel | تقفيل الشات**:no_entry:
+  ** #mutechannel | تقفيل الشات**:no_entry:
 
-  ** -unmutechannel | فتح الشات**:on:   
+  ** #unmutechannel | فتح الشات**:on:   
 
-  ** -dc | مسح كل الرومات**
+  ** #dc | مسح كل الرومات**
 
-  ** -dr | <مسح كل الرانكات <لازم تكون رانك البوت فوق كل الرانكات**
+  ** #dr | <مسح كل الرانكات <لازم تكون رانك البوت فوق كل الرانكات**
 
-  ** -ct <name> | انشاء شات**:rolling_eyes:
+  ** #ct <name> | انشاء شات**:rolling_eyes:
 
-  ** -cv <name> | انشاء رووم فويس**:crown:
+  ** #cv <name> | انشاء رووم فويس**:crown:
 
-  ** -delet <name> | مسح الشات او الرووم فويس**
+  ** #delet <name> | مسح الشات او الرووم فويس**
 
-  ** -ccolors <number> | ينشا لك الوان مع كم الوان تبي**
+  ** #ccolors <number> | ينشا لك الوان مع كم الوان تبي**
 
   -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 `)
@@ -267,29 +267,29 @@ client.on('message', message => {
          .setThumbnail(message.author.avatarURL)
          .setColor("#FFFF00")
          .setDescription(`**  :video_game: الألعاب :video_game:**
-  ** -rps | حجر ورقة مقص ** :video_game:
+  ** #rps | حجر ورقة مقص ** :video_game:
 
-  ** -speed | اسرع كتابن ** :video_game:
+  ** #speed | اسرع كتابن ** :video_game:
 
-  ** -quas | اسئلة عامة ** :video_game:
+  ** #quas | اسئلة عامة ** :video_game:
 
-  ** -نكت | نكت ** :video_game:
+  ** #نكت | نكت ** :video_game:
 
-  ** -لعبة فكك | فكك ** :video_game:
+  ** #لعبة فكك | فكك ** :video_game:
 
-  ** -لعبة عواصم | عواصم** :video_game:
+  ** #لعبة عواصم | عواصم** :video_game:
 
-  ** -لعبة كت تويت | كت تويت ** :video_game:
+  ** #لعبة كت تويت | كت تويت ** :video_game:
 
-  ** -roll | قرعة راندوم** :video_game:
+  ** #roll | قرعة راندوم** :video_game:
 
-  ** -لو خيروك بطريقة حلوة | لوخيروك
+  ** #لو خيروك بطريقة حلوة | لوخيروك
 
-  ** -لعبة مريم | مريم** :video_game: 
+  ** #لعبة مريم | مريم** :video_game: 
   
-  ** -فوائد نصائح | هلتعلم ** :video_game: 
+  ** #فوائد نصائح | هلتعلم ** :video_game: 
   
-  ** -يعطيك عقابات قاسية |عقاب** :video_game: 
+  ** #يعطيك عقابات قاسية |عقاب** :video_game: 
    `)
    message.author.sendEmbed(embed)
    
@@ -304,21 +304,21 @@ client.on('message', message => {
            .setThumbnail(message.author.avatarURL)
            .setColor("#57FEFF")
            .setDescription(`** موسيقي :play_pause:  **
-  ** -play | لتشغيل اغنية برابط او بأسم** 
+  ** #play | لتشغيل اغنية برابط او بأسم** 
 
-  ** -skip | لتجآوز الأغنية الحآلية**
+  ** #skip | لتجآوز الأغنية الحآلية**
 
-  ** -pause | إيقآف الأغنية مؤقتا**
+  ** #pause | إيقآف الأغنية مؤقتا**
 
-  ** -resume | ل**موآصلة الإغنية بعد إيقآفهآ مؤقتا
+  ** #resume | ل**موآصلة الإغنية بعد إيقآفهآ مؤقتا
 
-  ** -vol | لتغيير درجة الصوت 100 - 0**
+  ** #vol | لتغيير درجة الصوت 100 - 0**
 
-  ** -stop | لإخرآج البوت من الروم**
+  ** #stop | لإخرآج البوت من الروم**
 
-  ** -np | لمعرفة الأغنية المشغلة حآليا**
+  ** #np | لمعرفة الأغنية المشغلة حآليا**
 
-  ** -queue | لمعرفة قآئمة التشغيل**
+  ** #queue | لمعرفة قآئمة التشغيل**
   
   `)
      message.author.sendEmbed(embed)
@@ -333,61 +333,61 @@ client.on('message', message => {
            .setDescription(`**   :earth_africa: الأوامر العامه :earth_africa: **
 **============ **
 
-  ** -allbots | لعرض جميع البوتات الي بالسيرفر** :robot: 
+  ** #allbots | لعرض جميع البوتات الي بالسيرفر** :robot: 
 
-  ** -server |يعرض لك معلومات عن السيرفر**:fire: 
+  ** #server |يعرض لك معلومات عن السيرفر**:fire: 
 
-  ** -bot | يعرض لك كل معلومات البوت**:computer: 
+  ** #bot | يعرض لك كل معلومات البوت**:computer: 
   
-  ** -skin <name> | يعرض لك سكنك بماين كرافت**:blush:
+  ** #skin <name> | يعرض لك سكنك بماين كرافت**:blush:
 
-  ** -count | يعرض لك عدد الاشخاص بالسيرفر بدون بوتات** :information_source:
+  ** #count | يعرض لك عدد الاشخاص بالسيرفر بدون بوتات** :information_source:
 
-  ** -invites | يعرض لك  عدد انفايتاتك بالسيرفر ** :microscope: 
+  ** #invites | يعرض لك  عدد انفايتاتك بالسيرفر ** :microscope: 
 
-  ** -invite-codes | يعرض لك روابط الانفايتات حكك في السيرفر **:spy: 
+  ** #invite-codes | يعرض لك روابط الانفايتات حكك في السيرفر **:spy: 
 
-  ** -cal | اله حاسبة**:slot_machine: 
+  ** #cal | اله حاسبة**:slot_machine: 
 
-  ** -trans <language> <any thing> | يترجم لك الي تبيه من اي لغة**:writing_hand: 
+  ** #trans <language> <any thing> | يترجم لك الي تبيه من اي لغة**:writing_hand: 
 
-  ** -short | يختصر لك رابط كبير الى رابط صغير**:mortar_board: 
+  ** #short | يختصر لك رابط كبير الى رابط صغير**:mortar_board: 
 
-  ** -tag | يكتب لك الكلمة بشكل جميل وكبير**:sunglasses: 
+  ** #tag | يكتب لك الكلمة بشكل جميل وكبير**:sunglasses: 
 
-  ** -google | للبحث في قوقل عن طريق الدسكورد**:desktop: 
+  ** #google | للبحث في قوقل عن طريق الدسكورد**:desktop: 
 
-  ** -perms | يعرض لك برمشناتك بالسيرفر**:pushpin: 
+  ** #perms | يعرض لك برمشناتك بالسيرفر**:pushpin: 
 
-  ** -za5 | يزخرف لك كلمة او جملة**:hearts: 
+  ** #za5 | يزخرف لك كلمة او جملة**:hearts: 
 
-  ** -rooms | يعرض لك كل الرومات الي بالسيرفر مع عددها**:rocket: 
+  ** #rooms | يعرض لك كل الرومات الي بالسيرفر مع عددها**:rocket: 
 
-  ** -roles | يعرض لك كل الرانكات بالسيرفر بشكل جميل**
+  ** #roles | يعرض لك كل الرانكات بالسيرفر بشكل جميل**
 
-  ** -emojilist | يعرض لك كل الايموجيات الي بالسيرفر**:cry: :smile: :joy: 
+  ** #emojilist | يعرض لك كل الايموجيات الي بالسيرفر**:cry: :smile: :joy: 
 
-  ** -say | يكرر الكلام الي تكتبو**:sparkles: 
+  ** #say | يكرر الكلام الي تكتبو**:sparkles: 
 
-  ** -image | صورة السيرفر**:bust_in_silhouette: 
+  ** #image | صورة السيرفر**:bust_in_silhouette: 
 
-  ** -members | يعرض لك عدد كل حالات الاشخاص وعدد البوتات وعدد الاشخاص**:selfie: 
+  ** #members | يعرض لك عدد كل حالات الاشخاص وعدد البوتات وعدد الاشخاص**:selfie: 
 
-  ** -profile | ليعرض البرفايل حقك** 
+  ** #profile | ليعرض البرفايل حقك** 
 
-  ** -bans | عدد الاشخاص المبندة **:no_entry: 
+  ** #bans | عدد الاشخاص المبندة **:no_entry: 
 
-  ** -avatar | صورتك او صورة الي تمنشنو**:bust_in_silhouette:
+  ** #avatar | صورتك او صورة الي تمنشنو**:bust_in_silhouette:
 
-  ** -embed | يكرر الي تقولو بشكل حلو**:small_blue_diamond: 
+  ** #embed | يكرر الي تقولو بشكل حلو**:small_blue_diamond: 
 
-  ** -emoji <any things> | لتحويل اي كلمه تقولها الي ايموجي**:small_orange_diamond: 
+  ** #emoji <any things> | لتحويل اي كلمه تقولها الي ايموجي**:small_orange_diamond: 
 
-  ** -inv | لدعوة البوت الى سيرفرك**:black_circle: 
+  ** #inv | لدعوة البوت الى سيرفرك**:black_circle: 
 
-  ** -support | سيرفر الدعم**:wrench:  :envelope_with_arrow: 
+  ** #support | سيرفر الدعم**:wrench:  :envelope_with_arrow: 
   
-  ** -contact | ارسال اقتراح او لمراسلة صاحب البوت**
+  ** #contact | ارسال اقتراح او لمراسلة صاحب البوت**
   
 **  ======:blossom:نــتــمــنــآ لــكــم آســتــمـــتــآع :blossom:======  **`)
      message.author.sendEmbed(embed)
@@ -401,7 +401,7 @@ client.on('message', message => {
       if (message.content === "#help-a") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By server DJ DaM  ')
+           .setFooter('By LoonyMert  ')
            .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
@@ -413,7 +413,7 @@ client.on('message', message => {
       if (message.content === "#help-g") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By server DJ DaM  ')
+           .setFooter('By LoonyMert ')
            .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
@@ -425,7 +425,7 @@ client.on('message', message => {
       if (message.content === "#help-m") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By server DJ DaM  ')
+           .setFooter('By LoonyMert  ')
            .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
@@ -437,7 +437,7 @@ client.on('message', message => {
       if (message.content === "#help-p") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By server DJ DaM  ')
+           .setFooter('By LoonyMert  ')
            .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
@@ -954,7 +954,7 @@ if (message.content.startsWith(prefix + 'trans')) {
     
         const embed = new Discord.RichEmbed()
             .setColor("FFFFFF")
-            .setDescription("**ترجمة الكتابة.**\استعمل: `-translate <الكلمة لتبي> <االغة>`");
+            .setDescription("**ترجمة الكتابة.**\استعمل: `#translate <الكلمة لتبي> <االغة>`");
 
         return message.channel.send(embed);
 
@@ -989,7 +989,7 @@ if (message.content.startsWith(prefix + 'trans')) {
     }
 }
 });
-
+ 
 
 			      
 client.on('message', message => {
@@ -1081,7 +1081,7 @@ client.on('message', message => {
 client.on('message', message => {
         if(!message.channel.guild) return;
 let args = message.content.split(' ').join(" ");
-if (message.content.startsWith('-legend')){
+if (message.content.startsWith('#legend')){
 if (message.author.id !== '484106911696945153') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{
@@ -1129,9 +1129,9 @@ client.on('message', message => {
             .addField('``Users``' ,`[ ${client.users.size} ]` , true)
             .addField('``My Name``' , `[ ${client.user.tag} ]` , true)
             .addField('``My ID``' , `[ ${client.user.id} ]` , true)
-			      .addField('``My Prefix``' , `[ - ]` , true)
+			      .addField('``My Prefix``' , `[ # ]` , true)
 			      .addField('``My Language``' , `[ Java Script ]` , true)
-			      .setFooter('By server | DJ DaM ')
+			      .setFooter('By server | LoonyMert ')
     })
 }
 });
