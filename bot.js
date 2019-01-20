@@ -3091,6 +3091,7 @@ var prefix = "#";
     }
 });
            
+
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
@@ -3193,6 +3194,7 @@ channel.guild.owner.send(`<@!${channelremover.id}>
  channelr[channelremover.id].deleted = 0;
   },Otime)
   });
+ 
 
   client.on('message', message => { 
 	var prefix ="#";
