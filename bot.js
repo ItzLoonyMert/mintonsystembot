@@ -852,7 +852,7 @@ client.on('message', message => {
 var embed = new Discord.RichEmbed()
 .setColor('RANDOM')
  .setThumbnail(message.author.avatarURL) 
-.addField('Dj dam' ,
+.addField(' LoonyMert ' ,
 `${Za7f[Math.floor(Math.random() * Za7f.length)]}`)
 message.channel.sendEmbed(embed);
 console.log('[38ab] Send By: ' + message.author.username)
@@ -989,8 +989,6 @@ if (message.content.startsWith(prefix + 'trans')) {
     }
 }
 });
- 
-
 			      
 client.on('message', message => {
      if(!message.channel.guild) return;
