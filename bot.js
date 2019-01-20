@@ -1082,7 +1082,7 @@ client.on('message', message => {
         if(!message.channel.guild) return;
 let args = message.content.split(' ').join(" ");
 if (message.content.startsWith('#legend')){
-if (message.author.id !== '484106911696945153') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
+if (message.author.id !== '347379495528824832') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{
 m.sendMessage(args)
