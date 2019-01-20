@@ -3062,31 +3062,7 @@ client.on("guildMemberAdd", member => {
 
 
 const arraySort = require('array-sort'),
-      table = require('table');
-
-client.on('message' , async (message) => {
-var prefix = "#";
-    if(message.content.startsWith(prefix + "top invites")) {
-
-  let invites = await message.guild.fetchInvites();
-
-    invites = invites.array();
-
-    arraySort(invites, 'uses', { reverse: true });
-
-    let possibleInvites = [['User', 'Uses']];
-    invites.forEach(i => {
-      possibleInvites.push([i.inviter.username , i.uses]);
-    })
-    const embed = new Discord.RichEmbed()
-    .setColor(0x7289da)
-    .setTitle("دعوات السيرفر")
-    .addField(' المتصدرين' , `\`\`\`${table.table(possibleInvites)}\`\`\``)
-
-    message.channel.send(embed)
-    }
-});
-           
+      table = require('table');           
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
