@@ -3200,13 +3200,7 @@ channel.guild.owner.send(`<@!${channelremover.id}>
 
 client.on('message', msg => {
   if (msg.content === '#vip') {
-    msg.channel.send('لكى تشترى رتبة VIP قم بتحويل 10 آلاف كريدت الى @MN , LoonyMert_EG#4999 
-		     
-مميزات الرتبة : 1- رتبة رينبو
-
-2- اكواد خاصة
-
-3- أى شى تبيه تعال خاص);
+    msg.channel.send('لكى تشترى رتبة VIP يجب دفع5 الاف كريدت ل @MN , LoonyMert_EG#4999 ... مميزات الرتبة 1- تقدر تاخد رتبة رينبو 2-تاخد اى كود تبيه 3-#اى شى تبيه تعال خاص 4- ليهم جوايز كل );
   }
 });
 
