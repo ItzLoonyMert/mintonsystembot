@@ -1715,7 +1715,7 @@ msg.channel.send(embed).then(() => {
 
 client.on('ready', function(){	
     var ms = 40000 ;	
-    var setGame = ['Rainbow 4Ever','#help'];	
+    var setGame = ['Minton 4Ever','#help'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
